@@ -4,8 +4,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Example</title>
+          <link rel="stylesheet"
+       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+       crossorigin="anonymous">
     </head>
     <body bgcolor="silver">
+         <div class="card">
+          <div class="card-body">
         <form method="post" action="login.jsp">
             <center>
             <table border="0" width="30%" cellpadding="3">
@@ -34,5 +40,7 @@
             </table>
             </center>
         </form>
+             </div>
+        </div>
     </body>
 </html>
